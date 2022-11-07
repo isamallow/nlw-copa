@@ -141,3 +141,23 @@ header {
     flex-wrap: wrap;
   }
 }
+
+.page-footer {
+  height: 70px;
+  width: 100%;
+  background: #1D1C19;
+  border-top: 2px solid #F7DD43;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #8D8D99;
+  padding: 32px;
+  margin-top: 20px;
+}
+
+.footer p {
+  display: flex;
+  align-items: center;
+  gap: 6;
+}
